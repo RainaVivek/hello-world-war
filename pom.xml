@@ -25,5 +25,17 @@
 			</plugin>
 		</plugins>
 	</build>
+	<distributionManagement>
+		<repository>
+		<id>nexus</id>
+		<name>maven-releases</name>
+			<url>http://my43798dns.eastus2.cloudapp.azure.com:8081/repository/private-release/</url>
+		</repository>
+		<snapshotRepository>
+			<id>nexus</id>
+			<name>maven-snapshots</name>
+			<url>http://my43798dns.eastus2.cloudapp.azure.com:8081/repository/private-snapshot/</url>
+		</snapshotRepository>
+  </distributionManagement>
 
 </project>
